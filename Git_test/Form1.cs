@@ -16,5 +16,13 @@ namespace Git_test
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = Int32.Parse(textBox1.Text);
+            int b = Int32.Parse(textBox2.Text);
+            label2.Text = (a + b).ToString();
+
+        }
     }
 }
