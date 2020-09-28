@@ -43,5 +43,11 @@ namespace Git_test
             label7.Text = (a * b).ToString();
         
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+                //load
+                //něco nového
+        }
     }
 }
