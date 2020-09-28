@@ -22,7 +22,11 @@ namespace Git_test
             int a = Int32.Parse(textBox1.Text);
             int b = Int32.Parse(textBox2.Text);
             label2.Text = (a + b).ToString();
-
+            label3.Text = (a - b).ToString();
+            label5.Text = (a * b).ToString();
+            if (b!=0) label7.Text = (a / b).ToString();
+            else label7.Text = "nelze";
+            //podíl další
         }
 
         private void button2_Click(object sender, EventArgs e)
