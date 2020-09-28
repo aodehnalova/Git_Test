@@ -25,5 +25,10 @@ namespace Git_test
             label3.Text = (a - b).ToString();
             label5.Text = (a * b).ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //loaD
+        }
     }
 }
