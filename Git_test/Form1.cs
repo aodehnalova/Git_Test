@@ -28,7 +28,8 @@ namespace Git_test
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //loaD
+                //load
+                //něco nového
         }
     }
 }
