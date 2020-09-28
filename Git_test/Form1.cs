@@ -22,15 +22,12 @@ namespace Git_test
             int a = Int32.Parse(textBox1.Text);
             int b = Int32.Parse(textBox2.Text);
             label2.Text = (a + b).ToString();
-            //kkkk
-
+            label3.Text = (a - b).ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            int a = Int32.Parse(textBox1.Text);
-            int b = Int32.Parse(textBox2.Text);
-            label3.Text = (a * b).ToString();
+            ///jjjjjjj
         }
     }
 }
