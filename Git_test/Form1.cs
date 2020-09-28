@@ -22,7 +22,7 @@ namespace Git_test
             int a = Int32.Parse(textBox1.Text);
             int b = Int32.Parse(textBox2.Text);
             label2.Text = (a + b).ToString();
-
+            label3.Text = (a - b).ToString();
         }
     }
 }
