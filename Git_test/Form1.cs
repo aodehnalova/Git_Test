@@ -23,6 +23,8 @@ namespace Git_test
             int b = Int32.Parse(textBox2.Text);
             label2.Text = (a + b).ToString();
             label3.Text = (a - b).ToString();
+            //dalsí
+            //dalsí
         }
     }
 }
