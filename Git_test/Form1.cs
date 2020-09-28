@@ -24,7 +24,8 @@ namespace Git_test
             label2.Text = (a + b).ToString();
             label3.Text = (a - b).ToString();
             label5.Text = (a * b).ToString();
-            //nova
+            if (b!=0) label7.Text = (a / b).ToString();
+            else label7.Text = "nelze";
         }
     }
 }
