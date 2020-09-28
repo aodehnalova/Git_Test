@@ -26,6 +26,7 @@ namespace Git_test
             label5.Text = (a * b).ToString();
             if (b!=0) label7.Text = (a / b).ToString();
             else label7.Text = "nelze";
+            //podíl další
         }
     }
 }
